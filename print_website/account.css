@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+   
+/*/////////////////////////////////////
+///////////// PAGE 1 /////////////////
+///////////////////////////////////*/
+
+
+.accountunderline a {
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: white;
+    
+}
+.page1{
+    background-color: whitesmoke;
+    width: 1520px;
+    height: 1000px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+} 
+
+/*///////////////////////////////////
+/////////////////NAVBAR/////////////
+/////////////////////////////////*/
+
+.navbar{
+    width: 100vw;
+   max-height: 10vw;
+   margin-top: 10px;
+   /* margin-left: 5px; */
+   display: flex;
+   align-items: center;
+   /* background-color: red; */
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 135px;
+    background-image: url(https://th.bing.com/th/id/R.219cb69e973963f79f476a15b5bd5884?rik=PbUKKGmUNJZ9Ng&riu=http%3a%2f%2fcliparts.co%2fcliparts%2fpiq%2f8qq%2fpiq8qqa7T.jpg&ehk=C6BoaX4GUyzp5CeKql3PxP1WXtwz4XLfEqzBy2fceak%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.menu{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-left: 40px;   
+    text-decoration:none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+.logo_name{
+    font-size: 40px;
+    color: rgb(52, 51, 51);
+    margin: 10px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: antiquewhite;
+
+}
+.cart_logo{
+    font-size: 30px;
+    margin-left: 40px;   
+    cursor: pointer;
+    color: #ff6900;
+} 
+
+
+/*///////////////////////////////////////////////////////
+//////////////// LOGIN PAGE ////////////////////////////
+/////////////////////////////////////////////////////*/
+
+
+.login_page{
+    width: 800px;
+    height: 600px;
+    background-color: #ff6900;
+    margin-left: 380px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    font-family: "Arima", system-ui;
+}
+h1{
+margin: 40px;
+font-size: 50px;
+font-family: "Arima", system-ui;
+}
+.contener{
+    width: 750px;
+    height: 430px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 50px; */
+}
+h3{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.forget_password{
+    font-size: 15px;
+    margin: 15px;
+    color: blue;
+    font-family: "Poppins", sans-serif;
+   cursor: pointer;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+.creat_account a {
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    border: #ff6900 2px solid;
+    border-radius: 40px;
+    left: -160px;
+    cursor: pointer;
+}
+button{
+    width: 150px;
+    height: 41px;
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    background-color: #ff6900;
+    border: #ff6900 2px solid;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}

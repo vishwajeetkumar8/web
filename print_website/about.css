@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.aboutunderline a {
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: white;
+}
+
+
+/*///////////// PAGE 1 ////////////*/
+
+
+.homeunderline a {
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: white;
+    
+}
+.main{
+    font-family: "Poppins", sans-serif;
+
+}
+
+/*//////NAVBAR///////*/
+
+.navbar{
+   width: 100vw;
+   margin-top: 10px;
+   max-height: 10vw;
+   display: flex;
+   align-items: center;
+  
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 135px;
+    background-image: url(https://th.bing.com/th/id/R.219cb69e973963f79f476a15b5bd5884?rik=PbUKKGmUNJZ9Ng&riu=http%3a%2f%2fcliparts.co%2fcliparts%2fpiq%2f8qq%2fpiq8qqa7T.jpg&ehk=C6BoaX4GUyzp5CeKql3PxP1WXtwz4XLfEqzBy2fceak%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.menu{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-left: 40px;   
+    text-decoration:none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+.logo_name{
+    font-size: 40px;
+    color: rgb(52, 51, 51);
+    margin: 10px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: antiquewhite;
+
+}
+.cart_logo{
+    font-size: 30px;
+    margin-left: 40px;   
+    cursor: pointer;
+    color: #ff6900;
+    /* position: fixed; */
+} 
+
+/*///////////////////////////////////////////
+/////////////////// BODY ///////////////////
+/////////////////////////////////////////*/
+
+.heading1{
+    width: 1520px;
+    height: 400px;
+    background-color: rgb(195, 193, 198);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;  
+    font-family: "Poppins", sans-serif;
+}
+.text2{
+    font-size:20px ;
+    font-family: "Poppins", sans-serif;
+}
+.mainbody{
+    width: 1520px;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+.text{
+    width: 500px;
+    height: 400px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.intro{
+    width: 1520px;
+    height: 800px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-size: 60px;
+}
+.member{
+    width: 1520px;
+    height: 500px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h4{
+    position: relative;
+    top: 190px;
+    font-size: 20px;
+    font-family: "Arima", system-ui;
+}
+.member1{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2020/01/image-14.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member2{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2020/01/team-0.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member3{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2020/01/team-01.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member4{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(vishwajeet.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*////////////////////////////////////////////
+/////////////////////// FOOTER  //////////////
+////////////////////////////////////////////*/
+
+
+.footer{
+    background-color: #ff6900;
+    width: 1520px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+} 
+.footer1{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.footer1 i{
+    margin: 20px;
+    cursor: pointer;
+}
+.footer2{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer3{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer4{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+span{
+    font-size: 30px;
+    margin: 20px;
+}

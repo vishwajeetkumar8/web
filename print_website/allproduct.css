@@ -1,0 +1,412 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+}
+.allproductunderline a {
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: white;
+    
+}
+.main1{
+    background-color: whitesmoke;
+    width: 1520px;
+    height: 2700px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 100vw;
+   max-height: 10vw;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 135px;
+    background-image: url(https://th.bing.com/th/id/R.219cb69e973963f79f476a15b5bd5884?rik=PbUKKGmUNJZ9Ng&riu=http%3a%2f%2fcliparts.co%2fcliparts%2fpiq%2f8qq%2fpiq8qqa7T.jpg&ehk=C6BoaX4GUyzp5CeKql3PxP1WXtwz4XLfEqzBy2fceak%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.menu{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-left: 40px;   
+    text-decoration:none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+.logo_name{
+    font-size: 40px;
+    color: rgb(52, 51, 51);
+    margin: 10px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #ff6900;
+    border-radius: 40px;
+    color: antiquewhite;
+
+}
+.cart_logo{
+    font-size: 30px;
+    margin-left: 40px;   
+    cursor: pointer;
+    color: #ff6900;
+}
+
+/*///////////////////////////////////////////////
+////////////////// MAIN BODY ///////////////////
+/////////////////////////////////////////////*/
+
+.page-detail{
+    width: 700px ;
+    height: 300px;
+    /* background-color: red; */
+    font-family: "Arima", system-ui;
+    font-family: "Poppins", sans-serif;
+   padding-left: 135px;
+   padding-top: 50px;
+   font-size: 20px;
+
+}
+h1{
+    margin-top: 40px;
+    color: #ff6900;
+}
+.line{
+    position: relative;
+    width: 1250px;
+    height: 2px;
+    top: 30px;
+    background-color: #ff6900;
+}
+.row1{
+    width: 1300px;
+    height: 500px;
+    /* background-color: red; */
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    position: relative;
+    top: 150px;
+    font-size: 20px;
+    font-family: "Arima", system-ui;
+}
+.product1{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-white.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product2{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-coffee-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product3{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-yellow-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product4{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt4-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2{
+    width: 1300px;
+    height: 500px;
+    /* background-color: red; */
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product5{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt6-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product6{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt2-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product7{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt5-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product8{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt3-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row3{
+    width: 1300px;
+    height: 500px;
+    /* background-color: red; */
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product9{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/tshirt7.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product10{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-blue-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product11{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-red-400x400.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product12{
+    width: 290px;
+    height: 430px;
+    margin: 10px;
+    cursor: pointer;
+    background-image: url(https://websitedemos.net/custom-printing-02/wp-content/uploads/sites/459/2018/06/mug-white.jpg);
+    background-size: 290px ;
+    background-repeat: no-repeat;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product1:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product2:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product3:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product4:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product5:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product6:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product7:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product8:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product9:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product10:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product11:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+.product12:hover{
+    box-shadow: 10px 10px 20px #ff6900;
+}
+
+.line2{
+    margin-left: 135px;
+    width: 1250px;
+    height: 2px;
+    top: 30px;
+    background-color: #ff6900;
+}
+
+/*////////////////////////////////////////////
+/////////////////////// FOOTER  //////////////
+////////////////////////////////////////////*/
+
+
+.footer{
+    background-color: #ff6900;
+    width: 1520px;
+    height: 600px;
+    display: flex;
+    margin-top: 200px;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+} 
+.footer1{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.footer1 i{
+    margin: 20px;
+    cursor: pointer;
+}
+.footer2{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer3{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer4{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+span{
+    font-size: 30px;
+    margin: 20px;
+}
